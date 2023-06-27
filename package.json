@@ -1,7 +1,6 @@
 {
-  "name": "pandanext",
+  "name": "panda-next13-demo",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "prepare": "panda codegen --clean",
     "dev": "next dev",
