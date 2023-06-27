@@ -1,5 +1,5 @@
-import { css, cx } from '../../styled-system/css';
-import { grid } from '../../styled-system/patterns';
+import { css, cx } from '../../../styled-system/css';
+import { grid } from '../../../styled-system/patterns';
 
 function FormResetTest() {
   return (

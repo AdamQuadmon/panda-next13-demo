@@ -1,4 +1,4 @@
-import PiconsTest from '../PiconsTest';
+import PiconsTest from './PiconsTest';
 
 export default function Home() {
   return <PiconsTest />;

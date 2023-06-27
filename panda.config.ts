@@ -32,13 +32,28 @@ export default defineConfig({
       minHeight: 'full',
       height: 'fit-content',
       maxHeight: '100%',
-      _dark: {
-        colorScheme: 'dark',
+      color: {
+        base: 'black',
+        _dark: 'white',
+      },
+      bg: {
+        base: 'white',
+        _dark: 'black',
       },
     },
     '*, *::before, *::after': {
       borderColor: 'gray.300',
       borderStyle: 'solid',
+    },
+    button: {
+      color: {
+        base: 'black',
+        _dark: 'white',
+      },
+      bg: {
+        base: 'white',
+        _dark: 'black',
+      },
     },
   },
   presets: [
